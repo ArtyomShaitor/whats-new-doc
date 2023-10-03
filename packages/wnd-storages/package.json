@@ -1,0 +1,14 @@
+{
+  "name": "wnd-storages",
+  "module": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "wnd-types": "workspace:*"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "wnd-updates-checker",
+  "module": "index.ts",
+  "type": "module",
+  "dependencies": {
+    "wnd-storages": "workspace:*",
+    "wnd-types": "workspace:*"
+  },
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
