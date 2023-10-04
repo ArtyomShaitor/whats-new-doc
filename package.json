@@ -2,24 +2,19 @@
   "name": "whats-new-doc",
   "private": true,
   "workspaces": [
-    "packages/wnd-types",
-    "packages/wnd-storages",
-    "packages/wnd-updates-checker",
-    "packages/wnd-react",
-    "packages/wnd-next"
+    "packages/*"
   ],
   "scripts": {
+    "dev": "turbo run dev",
     "lint": "bun run eslint ./"
   },
   "devDependencies": {
+    "@types/node": "^20.8.2",
     "@types/react": "^18.2.24",
+    "bun": "^1.0.4",
+    "bun-plugin-dts": "^0.2.1",
     "bun-types": "latest",
     "eslint": "^8.50.0",
-    "prettier": "^3.0.3",
-    "react": "^18.2.0"
-  },
-  "peerDependencies": {
-    "typescript": "^5.0.0",
-    "react": "^18.2.0"
+    "prettier": "^3.0.3"
   }
 }

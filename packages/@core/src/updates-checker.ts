@@ -1,7 +1,4 @@
-import { VersionStorage } from "wnd-storages";
-import type { Version } from "wnd-types";
-
-export type VersionGetter = () => Version;
+import type { Version, VersionGetter, VersionStorage } from "./types";
 
 type Listener = (value: string) => void;
 

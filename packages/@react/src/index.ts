@@ -1,4 +1,4 @@
-import { UpdatesChecker } from "wnd-updates-checker";
+import { UpdatesChecker } from "@whats-new-doc/core";
 import { useCallback, useEffect, useState } from "react";
 
 export const useUpdatesChecker = (updateChecker: UpdatesChecker) => {

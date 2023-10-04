@@ -1,4 +1,4 @@
-# updates-checker
+# core
 
 To install dependencies:
 

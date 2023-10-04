@@ -1,10 +1,11 @@
-import { useUpdatesChecker as useUpdatesCheckerReact } from "wnd-react";
-import { UpdatesChecker } from "wnd-updates-checker";
+import { useUpdatesChecker as useUpdatesCheckerReact } from "@whats-new-doc/react";
+import { UpdatesChecker } from "@whats-new-doc/core";
 import { useEffect, useState } from "react";
 
-type UpdateCheckerOptions = {
+export type UpdateCheckerOptions = {
   initialValue?: boolean;
 };
+
 export const useUpdatesChecker = (
   updateChecker: UpdatesChecker,
   { initialValue = false }: UpdateCheckerOptions = {},

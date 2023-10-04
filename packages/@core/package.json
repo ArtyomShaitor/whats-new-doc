@@ -1,0 +1,12 @@
+{
+  "name": "@whats-new-doc/core",
+  "version": "0.1.0",
+  "types": "dist/index.d.ts",
+  "main": "src/index.ts",
+  "scripts": {
+    "build": "bun run ../../scripts/build-package.ts"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
