@@ -1,8 +1,10 @@
 {
   "name": "@whats-new-doc/react",
-  "version": "0.1.0",
+  "version": "0.1.0-beta5",
+  "module": "src/index.ts",
   "main": "src/index.ts",
   "scripts": {
+    "pub": "npm publish --tag dev --access public",
     "build": "bun run ../../scripts/build-package.ts"
   },
   "devDependencies": {
@@ -10,7 +12,7 @@
     "@whats-new-doc/core": "workspace:*"
   },
   "peerDependencies": {
-    "@whats-new-doc/core": "workspace:*",
+    "@whats-new-doc/core": "*",
     "typescript": "^5.0.0",
     "react": ">=18",
     "react-dom": "^18.0.0"

@@ -1,12 +1,27 @@
 {
   "name": "@whats-new-doc/core",
-  "version": "0.1.0",
+  "version": "0.1.0-beta5",
   "types": "dist/index.d.ts",
+  "module": "src/index.ts",
   "main": "src/index.ts",
   "scripts": {
+    "pub": "npm publish --tag dev --access public",
     "build": "bun run ../../scripts/build-package.ts"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artyomshaitor/whats-new-doc.git"
+  },
+  "keywords": [
+    "changelog"
+  ],
+  "author": "artsiomshaitar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/artyomshaitor/whats-new-doc/issues"
+  },
+  "homepage": "https://github.com/artyomshaitor/whats-new-doc#readme"
 }

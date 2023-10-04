@@ -9,6 +9,7 @@ lerna-debug.log*
 
 # Turborepo
 .turbo
+packages/*/.npmignore
 build/**
 dist/**
 .next/**

@@ -1,5 +1,5 @@
 import { useUpdatesChecker as useUpdatesCheckerReact } from "@whats-new-doc/react";
-import { UpdatesChecker } from "@whats-new-doc/core";
+import type { UpdatesChecker } from "@whats-new-doc/core";
 import { useEffect, useState } from "react";
 
 export type UpdateCheckerOptions = {
