@@ -7,3 +7,5 @@ export interface VersionStorage {
 }
 
 export type VersionGetter = () => Version;
+
+export type Temp = string;

@@ -71,7 +71,9 @@ for (const pkg in workspaceVersionMap) {
     continue;
   }
 
-  mkdirSync(`${location}/.temp`);
+  if (!existsSync(`${location}/.temp`)) {
+    mkdirSync(`${location}/.temp`);
+  }
 
   writeFileSync(
     `${location}/.temp/package.json`,
