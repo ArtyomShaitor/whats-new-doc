@@ -7,3 +7,15 @@ export interface VersionStorage {
 }
 
 export type VersionGetter = () => Version;
+
+export type ChangeLog = {
+  title: string;
+  description: string;
+  versions: Array<{
+    version: string | null;
+    title: string;
+    date: string | null;
+    body: string;
+    parsed: Record<string, string[]>;
+  }>;
+};
