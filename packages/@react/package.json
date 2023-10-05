@@ -1,10 +1,12 @@
 {
   "name": "@whats-new-doc/react",
-  "version": "0.2.2-beta.2",
+  "version": "0.2.2-beta.3",
   "module": "src/index.ts",
   "main": "src/index.ts",
   "scripts": {
-    "build": "bun run ../../scripts/build-package.ts"
+    "prepack": "clean-package",
+    "postpack": "clean-package restore",
+    "build": "tsup"
   },
   "devDependencies": {
     "react": "^18.0.0",

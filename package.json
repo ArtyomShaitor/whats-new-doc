@@ -5,18 +5,17 @@
     "packages/*"
   ],
   "scripts": {
-    "pack:pre": "bun run ./scripts/pre-pack.ts",
-    "pack:post": "bun run ./scripts/post-pack.ts",
     "dev": "turbo run dev",
-    "lint": "bun run eslint ./"
+    "lint": "pnpm run eslint ./"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.26.2",
     "@types/node": "^20.8.2",
     "@types/react": "^18.2.24",
-    "bun": "^1.0.4",
-    "bun-plugin-dts": "^0.2.1",
-    "bun-types": "latest",
+    "clean-package": "^2.2.0",
     "eslint": "^8.50.0",
-    "prettier": "^3.0.3"
+    "prettier": "^3.0.3",
+    "tsup": "^7.2.0",
+    "tsx": "^3.13.0"
   }
 }

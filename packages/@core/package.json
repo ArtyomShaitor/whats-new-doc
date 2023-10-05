@@ -1,11 +1,12 @@
 {
   "name": "@whats-new-doc/core",
-  "version": "0.2.2-beta.2",
-  "types": "dist/index.d.ts",
+  "version": "0.2.2-beta.3",
   "module": "src/index.ts",
   "main": "src/index.ts",
   "scripts": {
-    "build": "bun run ../../scripts/build-package.ts"
+    "prepack": "clean-package",
+    "postpack": "clean-package restore",
+    "build": "tsup"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
