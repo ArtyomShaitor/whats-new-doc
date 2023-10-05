@@ -1,5 +1,11 @@
 # @whats-new-doc/core
 
+## 0.2.2-beta.6
+
+### Patch Changes
+
+- global -> globalThis
+
 ## 0.2.2-beta.5
 
 ### Patch Changes

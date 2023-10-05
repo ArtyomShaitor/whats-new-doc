@@ -1,5 +1,13 @@
 # @whats-new-doc/next
 
+## 0.2.2-beta.6
+
+### Patch Changes
+
+- Updated dependencies
+  - @whats-new-doc/core@0.2.2-beta.6
+  - @whats-new-doc/react@0.2.2-beta.6
+
 ## 0.2.2-beta.5
 
 ### Patch Changes
