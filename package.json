@@ -9,6 +9,7 @@
     "lint": "pnpm run eslint ./",
     "add": "changeset add",
     "version": "changeset version",
+    "prepare": "turbo build",
     "publish": "changeset publish"
   },
   "devDependencies": {
