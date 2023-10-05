@@ -1,6 +1,6 @@
 {
   "name": "@whats-new-doc/next",
-  "version": "0.2.2-beta.10",
+  "version": "0.2.2-beta.11",
   "module": "src/index.ts",
   "main": "src/index.ts",
   "scripts": {
@@ -14,12 +14,12 @@
   },
   "devDependencies": {
     "react": "^18.0.0",
-    "@whats-new-doc/core": "workspace:^"
+    "@whats-new-doc/core": "workspace:*"
   },
   "peerDependencies": {
     "typescript": "^5.0.0",
     "react": ">=18",
-    "@whats-new-doc/core": "workspace:^"
+    "@whats-new-doc/core": "workspace:*"
   },
   "repository": {
     "type": "git",

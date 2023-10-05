@@ -1,6 +1,6 @@
 {
   "name": "@whats-new-doc/core",
-  "version": "0.2.2-beta.10",
+  "version": "0.2.2-beta.11",
   "module": "src/index.ts",
   "main": "src/index.ts",
   "scripts": {

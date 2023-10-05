@@ -1,5 +1,11 @@
 # @whats-new-doc/core
 
+## 0.2.2-beta.11
+
+### Patch Changes
+
+- ^ -> \*
+
 ## 0.2.2-beta.10
 
 ### Patch Changes
