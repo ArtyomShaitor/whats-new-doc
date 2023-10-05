@@ -7,6 +7,7 @@
     "@whats-new-doc/react": "0.2.1"
   },
   "changesets": [
+    "afraid-houses-wonder",
     "funny-mirrors-relax",
     "gorgeous-trees-accept",
     "little-numbers-help",

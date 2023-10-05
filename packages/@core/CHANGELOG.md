@@ -1,5 +1,11 @@
 # @whats-new-doc/core
 
+## 0.2.2-beta.8
+
+### Patch Changes
+
+- add localStorage checking for nextjs
+
 ## 0.2.2-beta.7
 
 ### Patch Changes

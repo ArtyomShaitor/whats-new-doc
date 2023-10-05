@@ -1,10 +1,8 @@
 import type { MaybeVersion, Version, VersionStorage } from "./types";
 
 export const createLocalStorage = (key: string): VersionStorage => ({
-  // @ts-ignore
-  get: () => globalThis.localStorage.getItem(key),
-  // @ts-ignore
-  set: (value: Version) => globalThis.localStorage.setItem(key, value),
+  get: () => globalThis.localStorage?.getItem(key),
+  set: (value: Version) => globalThis.localStorage?.setItem(key, value),
 });
 
 export const createMockStorage = (): VersionStorage => {
