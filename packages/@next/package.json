@@ -17,6 +17,6 @@
   "peerDependencies": {
     "typescript": "^5.0.0",
     "react": ">=18",
-    "@whats-new-doc/core": "*"
+    "@whats-new-doc/core": "workspace:*"
   }
 }

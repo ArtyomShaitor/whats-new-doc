@@ -1,6 +1,6 @@
 {
   "name": "@whats-new-doc/core",
-  "version": "0.1.0-beta5",
+  "version": "0.2.0",
   "types": "dist/index.d.ts",
   "module": "src/index.ts",
   "main": "src/index.ts",
