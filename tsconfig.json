@@ -16,6 +16,6 @@
     "forceConsistentCasingInFileNames": true,
     "allowJs": true
   },
-  "include": ["packages", "src"],
+  "include": ["packages", "src", "scripts"],
   "exclude": ["**/node_modules"]
 }
