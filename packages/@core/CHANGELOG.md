@@ -1,5 +1,11 @@
 # @whats-new-doc/core
 
+## 0.2.2-beta.12
+
+### Patch Changes
+
+- Just update version
+
 ## 0.2.2-beta.11
 
 ### Patch Changes
