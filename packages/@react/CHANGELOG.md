@@ -1,5 +1,13 @@
 # @whats-new-doc/react
 
+## 0.2.2-beta.10
+
+### Patch Changes
+
+- Add prepublishOnly scripts
+- Updated dependencies
+  - @whats-new-doc/core@0.2.2-beta.10
+
 ## 0.2.2-beta.9
 
 ### Patch Changes

@@ -1,5 +1,11 @@
 # @whats-new-doc/core
 
+## 0.2.2-beta.10
+
+### Patch Changes
+
+- Add prepublishOnly scripts
+
 ## 0.2.2-beta.9
 
 ### Patch Changes
