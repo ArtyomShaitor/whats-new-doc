@@ -1,11 +1,10 @@
 {
   "name": "@whats-new-doc/core",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "types": "dist/index.d.ts",
   "module": "src/index.ts",
   "main": "src/index.ts",
   "scripts": {
-    "pub": "npm publish --tag dev --access public",
     "build": "bun run ../../scripts/build-package.ts"
   },
   "peerDependencies": {

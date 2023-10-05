@@ -1,10 +1,9 @@
 {
   "name": "@whats-new-doc/next",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "module": "src/index.ts",
   "main": "src/index.ts",
   "scripts": {
-    "pub": "npm publish --tag dev --access public",
     "build": "bun run ../../scripts/build-package.ts"
   },
   "dependencies": {
