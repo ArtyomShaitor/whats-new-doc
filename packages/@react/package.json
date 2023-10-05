@@ -1,6 +1,6 @@
 {
   "name": "@whats-new-doc/react",
-  "version": "0.2.2-beta.0",
+  "version": "0.2.2-beta.2",
   "module": "src/index.ts",
   "main": "src/index.ts",
   "scripts": {

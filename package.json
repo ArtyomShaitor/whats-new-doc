@@ -5,6 +5,8 @@
     "packages/*"
   ],
   "scripts": {
+    "pack:pre": "bun run ./scripts/pre-pack.ts",
+    "pack:post": "bun run ./scripts/post-pack.ts",
     "dev": "turbo run dev",
     "lint": "bun run eslint ./"
   },
