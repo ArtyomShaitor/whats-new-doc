@@ -9,10 +9,10 @@
   },
   "devDependencies": {
     "react": "^18.0.0",
-    "@whats-new-doc/core": "workspace:^"
+    "@whats-new-doc/core": "workspace:*"
   },
   "peerDependencies": {
-    "@whats-new-doc/core": "workspace:^",
+    "@whats-new-doc/core": "workspace:*",
     "typescript": "^5.0.0",
     "react": ">=18",
     "react-dom": "^18.0.0"
