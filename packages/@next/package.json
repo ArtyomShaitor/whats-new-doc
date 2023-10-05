@@ -1,6 +1,6 @@
 {
   "name": "@whats-new-doc/next",
-  "version": "0.2.2-beta.12",
+  "version": "0.2.2",
   "module": "src/index.ts",
   "main": "src/index.ts",
   "scripts": {

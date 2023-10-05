@@ -1,5 +1,22 @@
 # @whats-new-doc/core
 
+## 0.2.2
+
+### Patch Changes
+
+- eaad030: add localStorage checking for nextjs
+- a14eb6c: ^ -> \*
+- 238ecc0: global -> globalThis
+- 9287fa6: Add `clean-package` to package.json
+- 5b00d70: Fix package.json and add .npmignore
+- 7294a3a: bun -> pnpm
+- 08122c6: Add Temp Type
+- 2502e8a: Fix the types for storages
+- 9d7585e: Just update version
+- 171c3f0: Add prepublishOnly scripts
+- cd1336c: Add ChangeLog type
+- 0e918de: build
+
 ## 0.2.2-beta.12
 
 ### Patch Changes
