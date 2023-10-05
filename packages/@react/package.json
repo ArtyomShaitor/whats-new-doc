@@ -1,6 +1,6 @@
 {
   "name": "@whats-new-doc/react",
-  "version": "0.2.2-beta.4",
+  "version": "0.2.2-beta.5",
   "module": "src/index.ts",
   "main": "src/index.ts",
   "scripts": {
@@ -17,6 +17,11 @@
     "typescript": "^5.0.0",
     "react": ">=18",
     "react-dom": "^18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/artyomshaitor/whats-new-doc.git",
+    "directory": "packages/@react"
   },
   "clean-package": "../../clean-package.config.json"
 }

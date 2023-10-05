@@ -1,5 +1,11 @@
 # @whats-new-doc/core
 
+## 0.2.2-beta.5
+
+### Patch Changes
+
+- Fix package.json and add .npmignore
+
 ## 0.2.2-beta.4
 
 ### Patch Changes

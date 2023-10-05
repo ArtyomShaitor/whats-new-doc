@@ -1,6 +1,6 @@
 {
   "name": "@whats-new-doc/core",
-  "version": "0.2.2-beta.4",
+  "version": "0.2.2-beta.5",
   "module": "src/index.ts",
   "main": "src/index.ts",
   "scripts": {
@@ -13,7 +13,8 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/artyomshaitor/whats-new-doc.git"
+    "url": "git+https://github.com/artyomshaitor/whats-new-doc.git",
+    "directory": "packages/@core"
   },
   "keywords": [
     "changelog"
