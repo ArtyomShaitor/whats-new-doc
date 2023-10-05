@@ -1,6 +1,6 @@
 {
   "name": "@whats-new-doc/core",
-  "version": "0.2.2-beta.3",
+  "version": "0.2.2-beta.4",
   "module": "src/index.ts",
   "main": "src/index.ts",
   "scripts": {
@@ -23,5 +23,6 @@
   "bugs": {
     "url": "https://github.com/artyomshaitor/whats-new-doc/issues"
   },
-  "homepage": "https://github.com/artyomshaitor/whats-new-doc#readme"
+  "homepage": "https://github.com/artyomshaitor/whats-new-doc#readme",
+  "clean-package": "../../clean-package.config.json"
 }

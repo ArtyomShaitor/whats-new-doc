@@ -1,5 +1,11 @@
 # @whats-new-doc/core
 
+## 0.2.2-beta.4
+
+### Patch Changes
+
+- Add `clean-package` to package.json
+
 ## 0.2.2-beta.3
 
 ### Patch Changes
